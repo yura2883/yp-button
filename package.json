@@ -1,5 +1,5 @@
 {
-  "name": "yp-button",
+  "name": "@yup80/yp-button",
   "version": "1.0.0",
   "description": "Minimalistic vue.js-dependent Button component with beautiful ripple effect",
   "main": "src/yp-button.vue",
