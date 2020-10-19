@@ -1,0 +1,29 @@
+{
+  "name": "yp-button",
+  "version": "1.0.0",
+  "description": "Minimalistic vue.js-dependent Button component with beautiful ripple effect",
+  "main": "src/yp-button.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yura2883/yp-button.git"
+  },
+  "keywords": [
+    "vue.js",
+    "button",
+    "ripple",
+    "material",
+    "design"
+  ],
+  "author": "Yuriy Povalyaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yura2883/yp-button/issues"
+  },
+  "homepage": "https://github.com/yura2883/yp-button#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
