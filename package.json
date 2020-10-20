@@ -1,7 +1,6 @@
 {
   "name": "@yup80/yp-button",
-  "version": "1.0.2",
-  "private": true,
+  "version": "1.0.3",
   "description": "Minimalistic vue.js-dependent Button component with beautiful ripple effect",
   "author": {
     "name": "Yuriy Povalyaev"
