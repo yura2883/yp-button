@@ -156,7 +156,7 @@ export default {
             let tw = new Tween(animState)
                 .to(to, config.timeFadeOut)
                 .easing(comp.easing)
-                .on('update', ({o}) => {
+                .on('update', () => {
                     el.style.backgroundImage=getGradient(x, y, animState.o, animState.r, config.smooth, comp.inverted)
                 })
                 .on('complete', () => {

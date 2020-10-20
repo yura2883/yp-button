@@ -1,15 +1,63 @@
 {
   "name": "@yup80/yp-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "private": true,
   "description": "Minimalistic vue.js-dependent Button component with beautiful ripple effect",
-  "main": "src/yp-button.vue",
+  "author": {
+    "name": "Yuriy Povalyaev"
+  },
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yura2883/yp-button.git"
+  "main": "src/yp-button.vue",
+  "files": [
+    "src/yp-button.vue",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "es6-tween": "^5.5.10",
+    "vue": "^2.6.12"
   },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "@yup80/yp-button@1.0.0",
+  "bugs": {
+    "url": "https://github.com/yura2883/yp-button/issues"
+  },
+  "homepage": "https://github.com/yura2883/yp-button#readme",
   "keywords": [
     "vue.js",
     "button",
@@ -17,13 +65,10 @@
     "material",
     "design"
   ],
-  "author": "Yuriy Povalyaev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yura2883/yp-button/issues"
-  },
-  "homepage": "https://github.com/yura2883/yp-button#readme",
-  "dependencies": {
-    "vue": "^2.6.12"
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yura2883/yp-button.git"
   }
 }
