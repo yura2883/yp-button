@@ -203,30 +203,30 @@ export default {
         }
     }
     &.disabled {
-        .yp-button_button {
+        >.yp-button_button {
             background-color: lighten(@colorControl, 20%);
             color: darken(@colorControlText, 10%);
         }
     }
     &.ahtung {
-        .yp-button_button {
+        >.yp-button_button {
             background-color: @colorAhtung;
         }
         &.disabled {
-            .yp-button_button {
+            >.yp-button_button {
                 background-color: lighten(@colorAhtung, 20%);
             }
         }
     }
     &.white { 
         /* нужна ли кнопка, может класс inverted */
-        .yp-button_button {
+        >.yp-button_button {
             background-color: #fff;
             color: #222;
         }
     }
     &.link {
-        .yp-button_button { 
+        >.yp-button_button {
             /* фактически тоже инверсивный класс, но только с прозрачным фоном */
             background-color: transparent;
             color: @colorControl;
@@ -236,7 +236,7 @@ export default {
             }
         }
         &.disabled {
-            .yp-button_button { 
+            >.yp-button_button {
                 color: #777;
             }
         }

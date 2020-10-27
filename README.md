@@ -66,15 +66,20 @@ export default {
     color: #000;
 }
 
-.myTheme .yp-button.ahtung .yp-button_button {
+.myTheme .yp-button.ahtung>.yp-button_button {
     // alternative button style 
     background-color: #FF3636;
 }
 
-.myTheme .yp-button.disabled .yp-button_button {
+.myTheme .yp-button.disabled>.yp-button_button {
     // disabled button style  
     color: green;
 }
 
 ````
+
+## Demo
+For more examples browse and clone github project to see more examples: 
+
+https://github.com/yura2883/yp-button
 
